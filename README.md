@@ -1,8 +1,8 @@
-Speech Transcription & Summarization
+# Speech Transcription & Summarization
 
 A Python-based pipeline for speech-to-text transcription and automatic summarization of audio files using state-of-the-art models. This project features a user-friendly Gradio interface for easy testing and demonstration.
 
-Features
+## Features
 
 Transcribe audio files (microphone or uploaded) in multiple languages.
 
@@ -12,14 +12,14 @@ Simple and intuitive web interface powered by Gradio.
 
 Modular structure for easy extension to other NLP tasks.
 
-Technologies & Libraries
+## Technologies & Libraries
 
 - Python
 - Automatic Speech Recognition (ASR)
 - Summarization using pre-trained transformer models
 - Gradio for web interface
 
-How It Works
+## How It Works
 
 Audio Input: Users can upload an audio file or record directly via microphone.
 
@@ -29,7 +29,9 @@ Summarization: The transcription is processed to produce a concise summary.
 
 Output: Both the full transcription and the summary are displayed side by side.
 
-Usage
+![Screenshot of the pipeline](demonstration.png)
+
+## Usage
 
 Clone the repository
 
@@ -39,13 +41,13 @@ Launch the interface
 
 Record or upload audio to see transcription and summary results
 
-Limitations & Notes
+## Limitations & Notes
 
 Summarization is primarily English-focused. Non-English audio may require translation.
 
 Long audio may be truncated for faster processing.
 
-Future Improvements
+## Future Improvements
 
 Add multilingual summarization using mBART or T5.
 
