@@ -29,8 +29,6 @@ Summarization: The transcription is processed to produce a concise summary.
 
 Output: Both the full transcription and the summary are displayed side by side.
 
-![Screenshot of the pipeline](demonstration.png)
-
 ## Usage
 
 Clone the repository
@@ -40,6 +38,12 @@ Install dependencies
 Launch the interface
 
 Record or upload audio to see transcription and summary results
+
+## Demonstration:
+
+Here is how the transcription and summarization pipeline works:
+
+![Screenshot of the pipeline](Media/demonstration.png)
 
 ## Limitations & Notes
 
